@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>A Python Journey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', path='/img/favicon.png') }}">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/gijgo.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/slicknav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- content -->
+    {% block content %}{% endblock %}
+    <!-- content -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            A Python Journey: Oficina ETEC Bauru
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- JS here -->
+    <script src="{{ url_for('static', path='/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/ajax-form.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/scrollIt.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/wow.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/nice-select.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/plugins.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/gijgo.min.js') }}"></script>
+
+    <!--contact js-->
+    <script src="{{ url_for('static', path='/js/contact.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.form.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/jquery.validate.min.js') }}"></script>
+    <script src="{{ url_for('static', path='/js/mail-script.js') }}"></script>
+
+    <script src="{{ url_for('static', path='/js/main.js') }}"></script>
+</body>
+
+</html>

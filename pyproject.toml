@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "python_journey"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+aiofiles = "0.6.0"
+click = "7.1.2"
+fastapi = "0.63.0"
+h11 = "0.12.0"
+Jinja2 = "2.11.3"
+MarkupSafe = "1.1.1"
+pydantic = "1.8.1"
+starlette = "0.13.6"
+typing-extensions = "3.7.4.3"
+uvicorn = "0.13.4"
+gunicorn = "^20.1.0"
+uvloop = "^0.16.0"
+httptools = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
